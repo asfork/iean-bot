@@ -1,0 +1,18 @@
+{
+  "name": "iean_bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "costflow": "^1.1.3",
+    "node-telegram-bot-api": "^0.53.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.0.1"
+  }
+}
