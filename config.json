@@ -1,0 +1,29 @@
+{
+  "mode": "beancount",
+  "currency": "CNY",
+  "timezone": "Asia/Shanghai",
+  "tag": "#costflow",
+  "account": {
+    "eob": "Equity:Opening-Balances",
+    "lap": "Liabilities:AccountsPayable",
+    "cash": "Assets:Cash",
+    "ccb": "Assets:Bank:CCB:C1880",
+    "boc": "Assets:Bank:BOC:C3758",
+    "bocc": "Assets:Bank:BOC:C9677",
+    "ed": "Expenses:Discretionary",
+    "digital": "Expenses:Discretionary:DigitalProducts",
+    "food": "Expenses:Discretionary:Food",
+    "transit": "Expenses:Discretionary:Transit",
+    "phone": "Expenses:Fixed:CellPhone",
+    "internet": "Expenses:Fixed:Internet",
+    "rent": "Expenses:Fixed:Rent",
+    "el": "Expenses:Large",
+    "ee": "Expenses:Entertainment"
+  },
+  "formula": {
+      "meituan": "@Meituan #delivery {{ amount }} boc > food",
+      "ele": "@Eleme #delivery {{ amount }} boc > food",
+      "apple": "@AppleStore {{ amount }} bocc > digital"
+  },
+  "defaultAccount": "Assets:Bank:BOC"
+}

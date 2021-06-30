@@ -11,12 +11,7 @@ const costflow = require('costflow').default;
 // Require Github helper package
 const { Octokit } = require("@octokit/core");
 
-const config = {
-  mode: 'beancount',
-  currency: 'CNY',
-  timezone: 'Asia/Shanghai',
-  tag: '#costflow'
-};
+const config = require('../config');
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
