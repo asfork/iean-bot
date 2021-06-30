@@ -18,7 +18,8 @@
     "internet": "Expenses:Fixed:Internet",
     "rent": "Expenses:Fixed:Rent",
     "el": "Expenses:Large",
-    "ee": "Expenses:Entertainment"
+    "ee": "Expenses:Entertainment",
+    "game": "Expenses:Entertainment:Game"
   },
   "formula": {
       "meituan": "@Meituan #delivery {{ amount }} boc > food",
