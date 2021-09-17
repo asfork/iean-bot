@@ -11,7 +11,7 @@
   "dependencies": {
     "@octokit/core": "^3.5.1",
     "costflow": "^1.1.3",
-    "node-telegram-bot-api": "^0.53.0"
+    "node-telegram-bot-api": "^0.54.0"
   },
   "devDependencies": {
     "ngrok": "^4.0.1"
