@@ -12,16 +12,16 @@
     "ccb": "Assets:Bank:CCB:C1880",
     "boc": "Assets:Bank:BOC:C3758",
     "bocc": "Assets:Bank:BOC:C9677",
-    "ed": "Expenses:Discretionary",
-    "digital": "Expenses:Discretionary:DigitalProducts",
-    "product": "Expenses:Discretionary:Products",
-    "food": "Expenses:Discretionary:Food",
-    "transit": "Expenses:Discretionary:Transit",
+    "shopping": "Expenses:Shopping",
+    "digital": "Expenses:Shopping:Digital",
+    "equipment": "Expenses:Shopping:Equipment",
+    "food": "Expenses:Shopping:Food",
+    "public": "Expenses:Transportation:Public",
     "phone": "Expenses:Fixed:CellPhone",
     "internet": "Expenses:Fixed:Internet",
     "rent": "Expenses:Fixed:Rent",
-    "ee": "Expenses:Entertainment",
-    "game": "Expenses:Entertainment:Game"
+    "entertainment": "Expenses:Entertainment",
+    "games": "Expenses:Entertainment:Games"
   },
   "formula": {
       "meituan": "@Meituan #delivery {{ amount }} boc > food",
